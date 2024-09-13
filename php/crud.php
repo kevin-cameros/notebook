@@ -5,7 +5,7 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-include 'db.php';
+include 'php/db.php';
 
 // Decodificar los datos enviados desde JS (JSON)
 $data = json_decode(file_get_contents('php://input'), true);

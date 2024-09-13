@@ -6,9 +6,9 @@
         <title>Log in</title>
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
-        <link rel="stylesheet" href="fontawesome/css/all.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="circle-nodes-solid.svg" type="image/x-icon">
+        <link rel="stylesheet" href="../fontawesome/css/all.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="icon" href="../icons/circle-nodes-solid.svg" type="image/x-icon">
     </head>
     <body>
       <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -23,7 +23,7 @@
       <hr class="hrNav">
         <div class="box">
 
-          <form action="login.php" method="post">
+          <form action="" method="POST">
         
           <div class="field">
             <p class="control has-icons-left">
@@ -43,15 +43,13 @@
           </div>
           <div class="field">
             <p class="control">
-              <button class="button is-success" id="btnLogin" type="submit">
-                Login
-              </button>
+              <input class="button is-success" id="btnLogin" name="btnLogin" type="submit" value="Login"></input>
             </p>
           </div>
 
         </form>
         </div>
 
-        <script src="login.js"></script>
+        
     </body>
 </html>

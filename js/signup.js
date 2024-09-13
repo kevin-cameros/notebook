@@ -12,7 +12,7 @@ $btnSubmit.addEventListener("click", () => {
 
     const data = {usuario,nombre,apellido,password,email};
 
-    fetch('crud.php', {
+    fetch('php/crud.php', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
