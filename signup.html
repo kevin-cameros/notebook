@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign up</title>
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+        <link rel="stylesheet" href="fontawesome/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="circle-nodes-solid.svg" type="image/x-icon">
+    </head>
+    <body>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            
+            <i class="fa-solid fa-circle-nodes fa-fade fa-2x"></i>
+            <h1>Notebook</h1>
+          </a>
+        </div>
+      </nav>
+      <hr class="hrNav">
+      <div class="box">
+
+        
+        <div class="field">
+          <label class="label">Name</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Name" id="nombre">
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Lastname</label>
+          <div class="control">
+            <input class="input" type="text" placeholder="Lastname" id="apellido">
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Password</label>
+          <div class="control has-icons-left">
+            <input
+              class="input is-link"
+              type="password"
+              placeholder="Password"
+              id="password"
+            />
+            <span class="icon is-small is-left">
+              <i class="fas fa-lock"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label">Username</label>
+          <div class="control has-icons-left">
+            <input class="input is-success" type="text" placeholder="Username" id="username">
+            <span class="icon is-small is-left">
+              <i class="fas fa-user"></i>
+            </span>
+
+          </div>
+        </div>
+        
+        <div class="field">
+          <label class="label">Email</label>
+          <div class="control has-icons-left">
+            <input class="input is-success" type="email" placeholder="Email" id="email">
+            <span class="icon is-small is-left">
+              <i class="fas fa-envelope"></i>
+            </span>
+          </div>
+        </div>
+
+        <div class="field is-grouped" style="padding-top: 15px;">
+          <div class="control">
+            <a class="button is-link" id="btnSubmit" href="login.html">Submit</a>
+          </div>
+          <div class="control">
+            <button class="button is-link is-light" id="btnCancel" type="reset">Cancel</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <script src="signup.js"></script>
+    </body>
+</html>

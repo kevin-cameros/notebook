@@ -1,0 +1,24 @@
+h1 {
+    font-family: "Yu Gothic Semibold";
+    color: white;
+    font-size: 20px;
+}
+
+.hrNav {
+    margin: 0 10%;
+}
+
+.navbar {
+    margin-top: 10%;
+    padding: 10px 10% 10px;
+    background: none;
+    justify-content: center;
+}
+
+.buttons {
+    margin: 20px 10%;
+    justify-content: center;
+}
+
+
+

@@ -1,0 +1,67 @@
+h1 {
+    font-family: "Yu Gothic Semibold";
+    color: white;
+    font-size: 20px;
+}
+
+.hrNav {
+    margin: 0 10%;
+}
+
+.navbar {
+    padding: 20px 10% 10px;
+    background: none;
+}
+
+.navbar-menu {
+    margin-left: 20px;
+}
+
+.hrBox {
+    margin: 20px;
+    
+}
+
+.box {
+    
+    background: none;
+
+}
+
+.divElements {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los subdivs se muevan a la siguiente fila cuando no hay espacio suficiente */
+    gap: 10px; /* Espacio entre los subdivs (opcional) */
+    margin: 10px 20%;
+}
+
+.is-danger {
+    left: 10px;
+}
+
+.message {
+    flex: 1 1 calc(50% - 10px); /* Cada subdiv ocupa el 50% del contenedor, menos el espacio del gap */
+    box-sizing: border-box; /* Incluye padding y border en el ancho total */
+    padding: 10px; /* Espacio interno (opcional) */
+    resize: both;
+
+}
+
+.bienvenida {
+    margin: 30px 20%;
+}
+
+.txtA {
+    border: none;
+    max-width: 100%;
+    min-width: 100%;
+
+
+    min-height: 150px;
+
+    outline: none;
+    background: none;
+    color: white;
+    font-family: "Verdana";
+    font-size: 14px;
+}
